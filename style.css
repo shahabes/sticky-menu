@@ -1,0 +1,32 @@
+body,ul,html{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(65, 15, 129);
+
+    position: fixed;
+    left:0;
+    width: 100%;
+    top: 0;
+
+    transition: ease all .5s;
+}
+
+.item{
+    padding: 20px;
+    color: white;
+    list-style: none;
+}
+
+
+section{
+    margin-top: 60px;
+}
+
+.hidden{
+    top: -70px;
+}
